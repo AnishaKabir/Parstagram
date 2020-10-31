@@ -173,6 +173,28 @@
                                             <outlet property="nameLabel" destination="YXM-h3-jH7" id="BBx-hM-7s2"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="pn5-2f-qak">
+                                        <rect key="frame" x="0.0" y="518.5" width="414" height="50.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pn5-2f-qak" id="tY5-bY-czJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Add a comment..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nop-6d-yJP">
+                                                    <rect key="frame" x="16" y="8" width="390" height="34.5"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Nop-6d-yJP" firstAttribute="leading" secondItem="tY5-bY-czJ" secondAttribute="leading" constant="16" id="Fae-es-ot6"/>
+                                                <constraint firstItem="Nop-6d-yJP" firstAttribute="top" secondItem="tY5-bY-czJ" secondAttribute="top" constant="8" id="IOB-GO-bV7"/>
+                                                <constraint firstAttribute="bottom" secondItem="Nop-6d-yJP" secondAttribute="bottom" constant="8" id="YeE-Fj-Nc1"/>
+                                                <constraint firstAttribute="trailing" secondItem="Nop-6d-yJP" secondAttribute="trailing" constant="8" id="ywo-8O-o3c"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
